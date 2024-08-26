@@ -1,0 +1,113 @@
+body {
+  font-family: system-ui;
+  color: #6A5D54;
+  text-align: center;
+}
+
+main {
+  width: 85%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+ol ul {
+  width: 85%;
+  margin: auto;
+  padding: 10px;
+}
+
+ol {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  display: contents;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 4vw;
+}
+
+a {
+  text-decoration: none;
+  color: #60B48C
+}
+
+a:hover {
+  color: rgb(47, 45, 43);
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+  max-height: 100%;
+  /* border: #60B48C dashed; */
+}
+
+img {
+  /* max-width: 400px; */
+  /* height: 400px; */
+  width: 100%;
+  /* height: 100px; */
+  margin: auto;
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  object-fit: cover;
+}
+
+div {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+p {
+  max-width: 85%;
+  margin: auto;
+}
+
+.border {
+  border: #60B48C dashed;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item {
+  min-width: 500px;
+  max-width: 45%;
+  max-height: 100%;
+}
+
+button {
+  background-color: #6A5D54;
+  border-color: #60B48C;
+  color: #dcd0c7;
+  width: 50px;
+}
+
+@media screen and (max-width: 1080px){
+  .item {
+    min-width: 320px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .item {
+    min-width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
